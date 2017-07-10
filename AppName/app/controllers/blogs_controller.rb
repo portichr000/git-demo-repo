@@ -5,7 +5,12 @@ layout "blog"
   # GET /blogs.json
   def index
     @blogs = Blog.all
+    
+    @blogs = Blog.featured_blogs
+    
+    
     @page_title = "My Portfolio BLog"
+   
   end
 
   # GET /blogs/1
