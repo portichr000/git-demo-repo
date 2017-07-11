@@ -18,5 +18,8 @@ module ApplicationHelper
     end
     
   end
+  def copyright_generator
+    MyGem124::Renderer.copyright 'Christian Portillo', 'All rights reserved'
   
+  end
 end
