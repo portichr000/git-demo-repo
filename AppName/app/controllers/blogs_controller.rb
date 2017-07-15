@@ -5,11 +5,7 @@ access all: [:show, :index], user: {except: [:destroy, :toggle_status, :new, :cr
   # GET /blogs
   # GET /blogs.json
   def index
-    @blogs = Blog.all
-    
-    @blogs = Blog.featured_blogs
-    
-    
+    @blogs = Blog.page(params[:page]).per(5)
     @page_title = "My Portfolio BLog"
    
   end
