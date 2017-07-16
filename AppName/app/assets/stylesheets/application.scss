@@ -162,37 +162,29 @@ body {
 }
 
 /*
- * custom styles
+ * Custom Styles
  */
 
-
-.card-block{
+.card-block {
   color: black;
   text-align: left;
 }
 
 .auth-links a {
-  color:black;
-  
+  color: black;
 }
 
+.register-text {
+  text-align: right;
+}
 
-
-.login > .card{
-  width:22rem;
+.login > .card {
+  width: 22rem;
   margin: 0 auto;
-  float:none;
-  margin-bottom: 10px;
+  float: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.app-nav span {
+  margin-left: 15px;
+  margin-right: 15px;
+}
