@@ -26,8 +26,8 @@ puts "10 blog posts created"
       title: "Portfolio title: #{portfolio_items}" ,
       subtitle:"ruby on rails" ,
       body: "body text = memes",
-      main_image:"http://via.placeholder.com/600x400" ,
-      thumb_image:"http://via.placeholder.com/350x200" ,
+      main_image:"http://placehold.it/600x400" ,
+      thumb_image:"http://placehold.it/350x200" ,
       
       )
   end
@@ -36,8 +36,8 @@ puts "10 blog posts created"
       title: "Portfolio title: #{portfolio_items}" ,
       subtitle:"Angular" ,
       body: "body text = memes",
-      main_image:"http://via.placeholder.com/600x400" ,
-      thumb_image:"http://via.placeholder.com/350x200" ,
+      main_image:"http://placehold.it/600x400" ,
+      thumb_image:"http://placehold.it/350x200" ,
       
       )
     end
