@@ -2,11 +2,11 @@ ready = undefined
 set_positions = undefined
 
 set_positions = ->
-  $('.card').each (i) -> 
+  $('.card').each (i) ->
     $(this).attr 'data-pos', i + 1
     return
   return
-  
+
 ready = ->
   set_positions()
   $('.sortable').sortable()
@@ -24,5 +24,5 @@ ready = ->
       data: order: updated_order
     return
   return
-  
+
 $(document).ready ready
