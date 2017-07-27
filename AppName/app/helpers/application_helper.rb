@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    MyGem124::Renderer.copyright 'Chris Portillo', 'All rights reserved'
+    MyGem124::Renderer.copyright 'Christian Portillo', 'All rights reserved'
   end
 
   def nav_items
@@ -72,7 +72,7 @@ module ApplicationHelper
   end
 
   def alert_generator msg
-    js add_gritter(msg, title: "Chris Portillo Portfolio", sticky: false)
+    js add_gritter(msg, title: "Christian Portillo Portfolio", sticky: false)
   end
 
 end
