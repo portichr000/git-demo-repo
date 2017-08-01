@@ -26,9 +26,20 @@ a:hover {
 /*
  * Base structure
  */
+ 
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Raleway', sans-serif;
+}
 
 html,
 body {
+  font-family: 'Lato', sans-serif;
   height: 100%;
 }
 body {
@@ -240,10 +251,8 @@ body {
 color: cyan;
 }
 
-.card-block {
-  margin-top: 5px;
-  margin-bottom: 5px;
+.skill {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-
 
